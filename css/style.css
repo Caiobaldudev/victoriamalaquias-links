@@ -44,7 +44,7 @@ body {
 #profile {
   position: relative;
   text-align: center;
-  padding: 10.8px;
+  padding: 10.8px ;
 }
 
 #profile img {
@@ -126,6 +126,17 @@ footer {
   padding: 10px;
 }
 
+@media (max-width: 375px) {
+  #container {
+    width: 300px;
+  }
+
+  #profile p {
+    font-size: 24px;
+    white-space: nowrap;
+  }
+}
+
 @media (max-width: 320px) {
   #container {
     width: 290px;
@@ -137,6 +148,7 @@ footer {
 
   #profile p {
     font-size: 24px;
+    white-space: nowrap;
   }
 
   #cta p{
